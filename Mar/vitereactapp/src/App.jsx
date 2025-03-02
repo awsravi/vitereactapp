@@ -1,16 +1,26 @@
-import React, { Component } from "react";
+import React from "react";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
-export default class App extends Component {
-  notify = () => toast("Wow, so easy!");
+import userName from "./Data.jsx"; // Importing default exports
+import { age, marks,greetName} from "./Data.jsx"; // Importing named exports
 
-  render() {
+export default function App() {
+  const notify = () => toast("Wow, so easy!");
+
+    console.log(userName); 
+    console.log(age);
+    console.log(marks);
+  
+    console.log(greetName());
     return (
       <div>
-        <button onClick={this.notify}>Notify!</button>
+        <button onClick={notify}>Notify!</button>
         <ToastContainer />
+
+        {greetName()}
+        {age+1}
       </div>
     );
-  }
+
 }
