@@ -14,6 +14,7 @@ export default function App() {
     console.log(marks);
   
     console.log(greetName());
+   
     return (
       <div>
         <button onClick={notify}>Notify!</button>
@@ -25,6 +26,8 @@ export default function App() {
         <HedderClassComponent/>
         <HedderFunctionalComponent/>
         <HedderFunctionalComponent1/>
+        <headerComponent/>
+    
 
       </div>
     );

@@ -11,5 +11,5 @@ export {marks}; //Named export
 
 export const greetName=() => {
 
-    return 'Hey Ravi Keep Doing Practices '+userName;
+    return 'Hey Ravi Keep Doing Practices ReactJs '+userName;
 }
