@@ -19,7 +19,7 @@ Note: Best Practices Recommendations Functional Components
 Use Functional Components whenever possible because they are simpler and more optimized.
 Use Class Components only if working with older React projects or complex logic requiring lifecycle methods (though Hooks can replace them).
 */
-
+//https://www.youtube.com/watch?v=XvMAsBTyJXA&list=PLc0JLRH0aaLQG92J00LihFNd6fImsz9lk&index=11
 /*
 Functional Components: Key Points
 Functional Components are JavaScript functions that return React elements (JSX).
