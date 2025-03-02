@@ -1,6 +1,6 @@
 let userName='Ravikumar';
 
-export let age =30;
+export let age =29;
 
 let marks=[10,20,30,40,50];
 //Default export use only one time in a file
